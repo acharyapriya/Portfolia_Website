@@ -1,0 +1,164 @@
+{
+    "navbar":
+        [
+            "Home","About","Education","Skill","Experience","Project","Contact"
+        ],
+
+  "skill": {
+    "frontend": [
+      { "name": "Html", "level": 80 },
+      { "name": "Css", "level": 80 },
+       { "name": "Material UI", "level": 80 },
+        { "name": "Bootstrap", "level": 80 },
+      { "name": "React Js", "level": 80 },
+       { "name": "Typescript", "level": 70 },
+       { "name": "Angular Js", "level": 70 },
+        { "name": "Next Js", "level": 70 },
+      
+        { "name": "Chart Js", "level": 70 }
+       
+    ],
+    "backend": [
+      { "name": "Node js", "level": 70 },
+      { "name": "Sql", "level": 80 },
+      { "name": "Express", "level": 70 }
+    ],
+     "softwareDevelopmentTool": [
+      { "name": "GIT", "level": 70 },
+      { "name": "JIRA", "level": 80 }
+      
+    ]
+  }
+
+,
+"Experience":[
+{
+  "Project": "Interview Scheduling Panel",
+  "Year": "March 2021 – December 2021",
+  "Client": "Internal Project",
+   "Location":"India",
+  "Description": [
+    "The Interview Scheduling Panel application streamlines the process of scheduling and managing interviews.",
+    "It provides a user-friendly interface for interviewers and candidates.",
+    "Improves coordination and reduces manual effort."
+  ],
+  "Duties": [
+    "Analyzed business and functional requirements to design efficient workflows for interview scheduling and management.",
+    "Designed and developed responsive, user-friendly application interfaces to support interviewers and candidates.",
+    "Implemented application features using a component-based architecture and followed best coding practices.",
+    "Collaborated closely with UX designers to align system functionality with user experience requirements.",
+    "Coordinated with backend teams to integrate application services and ensure accurate data exchange.",
+    "Ensured application consistency, performance, and usability across multiple browsers and devices.",
+    "Conducted unit testing, identified defects, and resolved issues to maintain application stability.",
+    "Used version control systems to manage source code, track changes, and support team collaboration.",
+    "Participated in requirement discussions, issue analysis, and solution implementation to support continuous improvement."
+  ]
+}
+,
+{
+  "Project": "Project Monitoring Tool",
+  "Year": "February 2022 – May 2023",
+  "Client": "Internal Project",
+   "Location":"India",
+  "Description": [
+    "Developed to monitor projects handled within the organization.",
+    "Tracks progress and evaluates the health status of each project.",
+    "Improves visibility and reduces manual monitoring effort."
+  ],
+  "Duties": [
+    "Analyzed project requirements and participated in sprint planning and refinement activities as part of an Agile development process.",
+    "Designed and developed responsive and interactive user interfaces to visualize project health, progress, and key metrics.",
+    "Implemented application features using a modular and reusable component-based approach and also worked with Chart.js.",
+    "Actively worked in sprint-wise development, delivering assigned user stories within defined timelines.",
+    "Used Jira to track tasks, user stories, bugs, and sprint progress, ensuring timely updates and clear communication with stakeholders.",
+    "Collaborated closely with UX designers to align application functionality with usability and design standards.",
+    "Coordinated with backend teams to integrate services and ensure accurate and secure data flow between systems.",
+    "Ensured application consistency, performance, and compatibility across multiple browsers and devices.",
+    "Performed unit testing, debugging, and issue resolution to maintain application stability and quality.",
+    "Utilized Git for version control, including branching, merging, and code reviews, to support collaborative development and maintain code integrity.",
+    "Participated in sprint reviews and retrospectives to identify improvements and enhance development efficiency."
+  ]
+}
+,
+{
+  "Project": "MOH Land Based Project",
+  "Year": "June 2023 – March 2024",
+  "Client": "Muscat Based Project",
+   "Location":"India",
+  "Description": [
+    "Developed to support the Ministry of Health in managing and maintaining accurate land and property registration records.",
+    "Enables authorized users to register, update, verify, and track land-related information in a structured and secure manner.",
+    "Improves data accuracy, transparency, and operational efficiency by replacing manual processes with a centralized system.",
+    "Supports compliance with government regulations and provides reliable access to land registration data for administrative and decision-making purposes."
+  ],
+
+  "Duties": [
+    "Participated in the design and development of a land-based registration system to support accurate record management and regulatory compliance.",
+    "Analyzed business and functional requirements provided by stakeholders and converted them into system features.",
+    "Developed user-friendly interfaces to capture, view, and manage land registration data efficiently.",
+    "Collaborated closely with backend teams, QA, and business analysts to ensure seamless data flow and system integration.",
+    "Implemented validations and workflows to improve data accuracy and reduce manual errors.",
+    "Ensured application performance, usability, and consistency across different devices and browsers.",
+    "Supported testing activities, identified defects, and fixed issues to ensure stable releases.",
+    "Maintained proper documentation and followed development best practices throughout the project lifecycle."
+  ]
+
+},
+
+{
+  "Project": "Northridge Medical",
+  "Year": "November 2024 – Current",
+  "Client": "America Based Project (US)",
+  "Location":"Nepal",
+  "Description": [
+    "Northridge is a US-based medical and pharmaceutical application designed to streamline healthcare and pharmacy operations.",
+    "Manages patient records, prescriptions, medicine inventory, and pharmacy workflows efficiently.",
+    "Follows Agile methodology with sprint-wise development and uses Bitbucket for version control."
+  ],
+  "Duties": [
+    "Developed frontend components using React.js and TypeScript, ensuring responsive and user-friendly UI.",
+    "Implemented backend services using Java, integrating APIs for data retrieval, processing, and database operations.",
+    "Participated in sprint planning, daily stand-ups, and sprint reviews to deliver incremental project milestones.",
+    "Collaborated with the US-based client to gather requirements, provide updates, and incorporate feedback.",
+    "Managed version control and code collaboration using Bitbucket.",
+    "Conducted unit testing and debugging to ensure application quality and reliability."
+  ]
+
+}
+
+
+],
+"Project":[
+  {
+  "Project":"Todo Manager",
+  "Description":"Handling Todo-List of daily Activities",
+   "GitHub": "https://github.com/acharyapriya/Portfolia_Website.git"
+ 
+},
+ {
+  "Project":"Website Design",
+  "Description":"Handling Todo-List of daily Activities"
+ 
+}
+],
+"Contact":[{
+  
+    "Email":"priyaacharya3012@gmail.com",
+    "img": "/image/email.jfif"
+  },
+    {
+    "Contact":"977 9841613961",
+    "img": "/image/contact.jfif"
+  },
+    {
+    "Watapp":"977 9841613961",
+    "img": "/image/watapp.jfif"
+  }
+
+
+
+]
+}
+
+   
+
