@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography, Paper } from "@mui/material";
+import { Box, Container, Grid, Paper } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";

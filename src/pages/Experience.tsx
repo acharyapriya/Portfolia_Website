@@ -1,4 +1,4 @@
-import { Box, Typography, Divider } from "@mui/material";
+import { Box, Divider } from "@mui/material";
 import { motion } from "framer-motion";
 import { InView } from "react-intersection-observer";
 

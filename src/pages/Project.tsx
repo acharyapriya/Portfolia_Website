@@ -1,4 +1,4 @@
-import { Box, Grid, Card, Typography } from "@mui/material";
+import { Box, Grid, Card } from "@mui/material";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";

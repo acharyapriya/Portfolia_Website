@@ -129,17 +129,13 @@
 
 ],
 "Project":[
-  {
-  "Project":"Todo Manager",
-  "Description":"Handling Todo-List of daily Activities",
-   "GitHub": "https://github.com/acharyapriya/Portfolia_Website.git"
  
-},
- {
-  "Project":"Website Design",
-  "Description":"Handling Todo-List of daily Activities"
- 
+{
+  "Project": "Business Website Design",
+  "Description": "Developed a mobile-first, responsive web application using React (TypeScript), HTML, CSS, and Bootstrap to present business information, services, and products in a clear and engaging manner. The application enables easy navigation across sections, ensures cross-device compatibility, and delivers a modern, professional online presence with improved usability and accessibility.",
+ "GitHub": "https://github.com/acharyapriya/Portfolia_Website.git"
 }
+
 ],
 "Contact":[{
   

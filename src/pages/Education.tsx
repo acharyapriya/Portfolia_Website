@@ -1,4 +1,4 @@
-import { Box, Typography, Divider, Fade } from "@mui/material";
+import { Box, Divider, Fade } from "@mui/material";
 import { useInView } from "react-intersection-observer";
 import TextAreaComponent from "../component/TextAreaComponent";
 
