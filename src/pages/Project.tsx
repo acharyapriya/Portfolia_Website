@@ -10,7 +10,7 @@ const MotionBox = motion(Box);
 
 const Project = () => {
   return (
-    <Box id="Project" sx={{ width: "100%", py: { xs: 3, md: 4 }, background: "#f2f2f25c", scrollMarginTop: "90px", }}>
+    <Box id="Project" sx={{ width: "100%", py: { xs: 3, md: 4 }, background: "#f2f2f25c"}}>
       <Box sx={{ width: { xs: "90%", md: "67%" }, mx: "auto", textAlign: "center" }}>
         <TextAreaComponent
           variant="h5"
@@ -26,9 +26,8 @@ const Project = () => {
 
         <Grid container spacing={4} justifyContent="center">
           {data?.Project?.map((item, index) => {
-            const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
-            const fromLeft = index % 2 === 0;
-
+            const { ref, inView } = useInView({ triggerOnce: false });
+            
             return (
               <Grid
 
@@ -41,9 +40,9 @@ const Project = () => {
               >
                 <MotionBox
                   ref={ref}
-                  initial={{ opacity: 0, x: fromLeft ? -50 : 50 }}
+                  initial={{ opacity: 0, x: -50  }}
                   animate={inView ? { opacity: 1, x: 0 } : {}}
-                  transition={{ duration: 0.6, delay: index * 0.2 }}
+                  transition={{ duration: 0.6 }}
                 >
                   <Card
                     sx={{
@@ -110,6 +109,7 @@ const Project = () => {
                           fontSize: "0.75rem",
                           "&:hover": { borderColor: "#000080" },
                         }}
+                         onClick={() => window.open(item.LiveDemo, "_blank")}
                       >
                         Live Demo
                       </ButtonCompo>

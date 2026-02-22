@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ButtonCompo from "../component/Button";
 import TextAreaComponent from "../component/TextAreaComponent";
+import Home from "../../public/image/Home.png";
 
 const MotionBox = motion(Box);
 const MotionImg = motion.img;
@@ -59,7 +60,6 @@ React | TypeScript | MUI
           initial={{ opacity: 0, x: -60 }}
           animate={inView ? { opacity: 1, x: 0 } : undefined}
           transition={{ duration: 0.8 }}
-          sx={{ flex: 1 }}
         >
           <TextAreaComponent
             variant="h4"
@@ -84,10 +84,8 @@ React | TypeScript | MUI
               lineHeight: 1.6,
             }}
           >
-            Results-driven Software Engineer and Programmer with proven experience
-            in developing and maintaining software applications. Skilled in
-            analyzing requirements, solving technical challenges, and delivering
-            robust solutions.
+           Software Engineer with 4.1 experience in Frontend Development using React js,Typescript , Angular
+and Material UI, with additional experience in Node js, Rest API and AWS.
           </TextAreaComponent>
 
           <Box sx={{ display: "flex", gap: 2, mt: 3, flexWrap: "wrap" }}>
@@ -116,7 +114,7 @@ React | TypeScript | MUI
 
         {/* RIGHT IMAGE */}
         <MotionImg
-          src="/image/Home.png"
+          src={Home}
           alt="Sripriya Acharya"
           initial={{ opacity: 0, x: 60 }}
           animate={inView ? { opacity: 1, x: 0 } : undefined}

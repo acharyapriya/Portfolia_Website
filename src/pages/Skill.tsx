@@ -10,14 +10,14 @@ const Skill = () => {
 
   const renderSkills = (skills: any[]) => (
     <Grid container spacing={4} >
-      {skills.map((item, index) => (
-        <Grid sx={{ size: { xs: 12, md: 4, sm: 6 } }} key={index}>
+      {skills.map((item) => (
+      
 
           <MotionBox
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
+            transition={{ duration: 0.5 }}
           >
 
             <Box
@@ -58,7 +58,7 @@ const Skill = () => {
               />
             </Box>
           </MotionBox>
-        </Grid>
+      
       ))}
     </Grid>
   );
@@ -91,13 +91,13 @@ const Skill = () => {
 
         {/* Frontend & Backend side by side */}
         <Grid container spacing={6}>
-          <Grid sx={{ size: { xs: 12, md: 6 } }} >
+          <Grid  >
             <TextAreaComponent variant="h6" sx={{ fontWeight: "bold", mb: 3, color: "#0E0E69" }}>
               Frontend
             </TextAreaComponent>
             {renderSkills(frontend)}
           </Grid>
-          <Grid sx={{ size: { xs: 12, md: 6 } }} >
+          <Grid >
             <TextAreaComponent variant="h6" sx={{ fontWeight: "bold", mb: 3, color: "#0E0E69" }}>
               Backend
             </TextAreaComponent>

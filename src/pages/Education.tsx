@@ -22,7 +22,7 @@ const educationData = [
 const Education = () => {
   const { ref, inView } = useInView({
     triggerOnce: true, 
-    // threshold: 0.3,   
+ 
   });
 
   return (

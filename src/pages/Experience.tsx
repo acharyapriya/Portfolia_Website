@@ -52,7 +52,7 @@ const Experience = () => {
                   ref={ref}
                   initial={{ x: -100, opacity: 0 }} 
                   animate={inView ? { x: 0, opacity: 1 } : {}}
-                  transition={{ duration: 0.8, delay: index * 0.1 }}
+                  transition={{ duration: 0.8,  }}
                   sx={{
                     position: "relative",
                     mb: 5,
